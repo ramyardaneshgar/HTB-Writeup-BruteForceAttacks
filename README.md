@@ -3,10 +3,6 @@ HackTheBox Writeup: Login Brute Forcing techniques, utilizing Hydra, Medusa, Pyt
 
 By Ramyar Daneshgar 
 
-
-## **Brute Force Attacks**
-### **Question 1: After successfully brute-forcing the PIN, what is the full flag the script returns?**
-
 ### **Understanding the Attack Vector**
 Brute force attacks exploit the fact that systems often implement weak authentication mechanisms with limited input spaces. In this case, the target system uses a 4-digit PIN as a security measure, making it vulnerable to an exhaustive search attack. Since a 4-digit PIN has only 10,000 possible combinations (0000-9999), iterating through all possible values is computationally trivial.
 
